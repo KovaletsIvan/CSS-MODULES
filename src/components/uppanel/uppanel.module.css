@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 18%;
+  height: 65px;
+  width: 100%;
+  background: #0a0043;
+}
+.item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.email::before {
+  content: url(./images/letter.png);
+  padding-right: 10px;
+}
+
+.phone::before {
+  content: url(./images/phone.png);
+  padding-right: 10px;
+}
+
+.whatsapp::before {
+  content: url(./images/whatsapp.png);
+  padding-right: 10px;
+}
+
+.select {
+  float: left;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.heartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -12px;
+  left: -9px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #2b66fa;
+}

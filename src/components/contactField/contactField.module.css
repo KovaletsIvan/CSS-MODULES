@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 580px;
+  width: 100%;
+}
+.office {
+  display: flex;
+}
+.blueLine {
+  width: 110px;
+  border: 1px solid #008dfe;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 367px;
+  margin: 50px 0 50px 0;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  padding: 20px 0;
+}
+.text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+  color: #818181;
+}
+.phone:before {
+  position: relative;
+  top: 5px;
+  margin-right: 15px;
+  content: url(./images/phoneBlue.png);
+}
+.mail:before {
+  position: relative;
+  top: 5px;
+  margin-right: 15px;
+  content: url(./images/mail.png);
+}
+.online {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #818181;
+  padding-top: 40px;
+}
+.whatsApp::before {
+  position: relative;
+  top: 8px;
+  padding-right: 12px;
+  content: url(./images/whatsApp.png);
+}
+.viber::before {
+  position: relative;
+  top: 8px;
+  padding-right: 12px;
+  content: url(./images/viber.png);
+}
+.messenger::before {
+  position: relative;
+  top: 8px;
+  padding-right: 12px;
+  content: url(./images/messenger.png);
+}
+.telegram::before {
+  position: relative;
+  top: 8px;
+  padding-right: 12px;
+  content: url(./images/telegram.png);
+}
